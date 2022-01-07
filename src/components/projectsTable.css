@@ -1,0 +1,32 @@
+.container{
+  min-height: 60vh;
+}
+.project-container {
+  max-width: 35rem;
+  margin: 0 auto 0 auto;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  background-color:  rgba(41, 216, 41,0.1);
+  box-shadow: 0.3rem 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+.responsive-table .table-header {
+  display: none;
+}
+.responsive-table li {
+  display: block;
+}
+.responsive-table .col a {
+  color: var(---secondary--color---);
+}
+.responsive-table .col {
+  flex-basis: 100%;
+  /* display: flex; */
+  padding: 0.5rem 0;
+}
+.responsive-table .col:before {
+  color: #6c7a89;
+  /* color: var(---secondary--color---); */
+  padding-right: 10px;
+  content: attr(data-label);
+  flex-basis: 50%;
+  text-align: right;
+}
