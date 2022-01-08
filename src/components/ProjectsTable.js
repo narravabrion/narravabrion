@@ -7,7 +7,7 @@ const ProjectsTable = () => {
 		<div className="container">
 		<div className='project-container'>
 				<ul className='responsive-table'>
-					<li className='table-row'>
+					<li>
 						<div className='col' data-label='Title:'>
 						<a href="https://narravabrion.netlify.app/">Portfolio</a>
 						</div>

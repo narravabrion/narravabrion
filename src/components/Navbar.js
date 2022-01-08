@@ -15,7 +15,7 @@ const Navbar = () => {
                     <Link className="nav-ul-li-a" to="/projects">projects</Link>
                 </li>
                 <li className="nav-ul-li">
-                    <a className="nav-ul-li-a" href="https://codxbrion.hashnode.dev/">blog</a>
+                    <a className="nav-ul-li-a" target={'blank'} href="https://codxbrion.hashnode.dev/">blog</a>
                 </li>
                 <li className="nav-ul-li">
                     <Link className="nav-ul-li-a" to="story">story</Link>

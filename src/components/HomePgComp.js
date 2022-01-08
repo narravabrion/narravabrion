@@ -13,22 +13,22 @@ const HomePgComp = () => {
 					<p>Software Developer | Comp engineer</p>
 				</div>
 				<div className='socials'>
-					<a href='https://github.com/narravabrion'>
+					<a href='https://github.com/narravabrion' target={'blank'}>
 						<div className='social-icon github'>
 							<AiFillGithub />
 						</div>
 					</a>
-					<a href='https://twitter.com/narravabrion'>
+					<a href='https://twitter.com/narravabrion' target={'blank'}>
 						<div className='social-icon twitter'>
 							<AiOutlineTwitter />
 						</div>
 					</a>
-					<a href='https://www.linkedin.com/in/brian-george-411b49184/'>
+					<a href='https://www.linkedin.com/in/brian-george-411b49184/' target={'blank'}>
 						<div className='social-icon linkedin'>
 							<AiFillLinkedin />
 						</div>
 					</a>
-					<a href='https://hashnode.com/@narravabrion'>
+					<a href='https://codxbrion.hashnode.dev/' target={'blank'}>
 						<div className='social-icon hashnode'>
 							<SiHashnode />
 						</div>

@@ -3,11 +3,11 @@ import React from "react"
 const Story = () => {
 	return (
 		<>
-			<article className="article">
+			<div className="article">
 				<h3>
 					Still in the works! A series of short stories inspired by events
 				</h3>
-			</article>
+			</div>
 		</>
 	)
 }

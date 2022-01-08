@@ -22,7 +22,7 @@ nav{
 .nav-ul-li{
     width: 100%;
     background-color: var(---text--color---);
-    transition: all 1.5s ease-in-out;
+    transition: all 0.3s ease-out;
 }
 .nav-ul-li-a{
     height: 100%;
@@ -32,7 +32,7 @@ nav{
     justify-content: center;
     text-decoration: none;
     color: var(---secondary--color---);
-    transition: all 1.5s ease-in-out;
+    transition: all 0.3s ease-out;
 }
 .nav-ul-li:hover{
     background-color: rgba(0, 0, 0, 0.3);

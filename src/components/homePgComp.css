@@ -55,8 +55,8 @@
     background-color: var(---text--color---);
     color: var(---secondary--color---);
     box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
-    transition: all 0.5s ease-in-out;
-    transform: translateY(-30%);
+    transition: all 0.3s ease-out;
+    transform: translateY(-5%);
 }
 .intro-article{
     width: 25rem;
@@ -94,13 +94,13 @@
     background-color: var(---secondary--color---);
     color: var(---text--color---);
     box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem rgba(0, 0, 0, 0.5);
-    transition: all 0.7s ease-in-out;
+    transition: all 0.3s ease-out;
     text-decoration: none;
 }
 .article-btns a:hover{
     background-color: var(---text--color---);
     color: var(---primary--color---);
-    border-top: var(---secondary--color---) 0.1rem solid;
+    border-top: var(---secondary--color---) 0.01rem solid;
     box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
 }
 .skills-section{
@@ -137,8 +137,8 @@
     border-top: var(---text--color---) 0.1rem solid;
     color: var(---secondary--color---);
     box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
-    transition: all 1s ease-in-out;
-    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+    transform: scale(1.06);
 }
 .skill p{
     color: rgba(0, 0, 0, 0.7);
