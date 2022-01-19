@@ -26,7 +26,7 @@ const ProjectsTable = () => {
 						A site that fetches current trends from round the world
 						</div>
 						<div className='col' data-label='Techs:'>
-							React.js
+							React.js, Node.js, REST, Material UI
 						</div>
 					</li>
 				</ul>
