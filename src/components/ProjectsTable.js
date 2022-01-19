@@ -9,10 +9,21 @@ const ProjectsTable = () => {
 				<ul className='responsive-table'>
 					<li>
 						<div className='col' data-label='Title:'>
-						<a href="https://narravabrion.netlify.app/">Portfolio</a>
+						<a target='_blank' rel='noreferrer' href="https://narravabrion.netlify.app/">Portfolio</a>
 						</div>
 						<div className='col' data-label='Description:'>
 						This is my personal website portfolio
+						</div>
+						<div className='col' data-label='Techs:'>
+							React.js
+						</div>
+					</li>
+					<li>
+						<div className='col' data-label='Title:'>
+						<a target='_blank' rel='noreferrer' href="https://twittertrends.netlify.app/">Twitter Trends</a>
+						</div>
+						<div className='col' data-label='Description:'>
+						A site that fetches current trends from round the world
 						</div>
 						<div className='col' data-label='Techs:'>
 							React.js
