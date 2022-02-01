@@ -45,7 +45,7 @@ const HomePgComp = () => {
 					in the pool or go for nature trips.
 				</p>
 				<div className='article-btns'>
-					<a href='https://rxresu.me/r/4brppg'>View CV</a>
+					<a href='https://drive.google.com/file/d/1Kf01vP8V87yU_W4K07dR9lnsJB6NUNm9/view?usp=sharing'>View CV</a>
 					<a href='mailto:kidbrion7@gmail.com'>Contact Me</a>
 				</div>
 			</article>
