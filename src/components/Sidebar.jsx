@@ -5,31 +5,47 @@ import { SiHashnode } from "react-icons/si"
 import { useMenuContext } from "../context/MenuContextProvider"
 
 const Sidebar = () => {
-	const {handleMenu} = useMenuContext()
+	const { handleMenu } = useMenuContext()
 	return (
 		<>
 			<div className='w-12 h-full bg-black/70 flex flex-col items-center justify-center relative'>
 				<div className='absolute top-2  text-white hover:text-green-700 cursor-pointer'>
-					<RiMenu5Fill size={25} onClick={handleMenu}/>
+					<RiMenu5Fill size={25} onClick={handleMenu} />
 				</div>
 				<li className='w-full h-full text-gray-400  flex flex-col items-center justify-center'>
 					<ul className='py-3'>
-						<a href=' ' target='_blank' rel='noreferrer'>
+						<a
+							href='https://github.com/narravabrion '
+							target='_blank'
+							rel='noreferrer'
+						>
 							<AiFillGithub size={20} />
 						</a>
 					</ul>
 					<ul className='py-3'>
-						<a href=' ' target='_blank' rel='noreferrer'>
+						<a
+							href=' https://twitter.com/narravabrion'
+							target='_blank'
+							rel='noreferrer'
+						>
 							<AiOutlineTwitter size={20} />
 						</a>
 					</ul>
 					<ul className='py-3'>
-						<a href=' ' target='_blank' rel='noreferrer'>
+						<a
+							href=' https://www.linkedin.com/in/brian-george-411b49184/'
+							target='_blank'
+							rel='noreferrer'
+						>
 							<AiFillLinkedin size={20} />
 						</a>
 					</ul>
 					<ul className='py-3'>
-						<a href=' ' target='_blank' rel='noreferrer'>
+						<a
+							href=' https://narravabrion.hashnode.dev/'
+							target='_blank'
+							rel='noreferrer'
+						>
 							<SiHashnode size={20} />
 						</a>
 					</ul>
