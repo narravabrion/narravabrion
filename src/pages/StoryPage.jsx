@@ -1,6 +1,6 @@
 import React from "react"
 
-const Story = () => {
+const StoryPage = () => {
 	return (
 		<>
 			<div className="article">
@@ -12,4 +12,4 @@ const Story = () => {
 	)
 }
 
-export default Story
+export default StoryPage
