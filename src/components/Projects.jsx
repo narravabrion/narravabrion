@@ -107,6 +107,6 @@ const projectList = [
 		name: "Nameright",
 		url: "https://nameright.netlify.app/",
 		desc: "A REST API build on ExpressJs where users can store names or query the database through multiple endpoints to get data in their desired format.",
-		techs: ["React", "Node", "Tailwind", "AdminJs", ""],
+		techs: ["React", "Node", "Tailwind", "AdminJs", "Docker"],
 	},
 ]
