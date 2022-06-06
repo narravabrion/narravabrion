@@ -48,10 +48,10 @@ const Projects = () => {
 					</h1>
 					<p className='pr-12 pl-3 text-left'>{currentProject.desc}</p>
 					<ul className='flex items-center flex-wrap justify-start pr-12 pl-2 pb-2 text-gray-400'>
-						{currentProject.techs.map((item, idx) => {
+						{currentProject.techs.map((item) => {
 							return (
 								<li
-									key={idx}
+									key={item.id}
 									className='bg-gray-200/20 px-1 m-1 rounded border border-gray-700'
 								>
 									{item}
@@ -89,17 +89,24 @@ export default Projects
 
 const projectList = [
 	{
-		id: "",
+		id: "1",
 		name: "Personal portfolio",
 		url: "https://narravabrion.netlify.app/",
 		desc: "This is my personal website portfolio",
 		techs: ["React", "Tailwind"],
 	},
 	{
-		id: "",
+		id: "2",
 		name: "Twitter trends",
 		url: "https://twittertrends.netlify.app/",
 		desc: "A site that fetches current trends from round the world. Users can specify the country they want to view or use their current location. It displays the trend name and the volume of tweets.",
 		techs: ["React", "Node", "Twitter API", "Material UI"],
+	},
+	{
+		id: "3",
+		name: "Nameright",
+		url: "https://nameright.netlify.app/",
+		desc: "A REST API build on ExpressJs where users can store names or query the database through multiple endpoints to get data in their desired format.",
+		techs: ["React", "Node", "Tailwind", "AdminJs", ""],
 	},
 ]
