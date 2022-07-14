@@ -1,8 +1,8 @@
 # [Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="10px"> Brion here](https://narravabrion.netlify.app/)
 
 <p>
- ![Twitter Follow](https://img.shields.io/twitter/follow/narravabrion?style=social)
- ![GitHub followers](https://img.shields.io/github/followers/narravabrion?style=social)
+ <a href="https://github.com/narravabrion"><img src="https://img.shields.io/github/followers/narravabrion?style=social" alt="GitHub"></a>
+ <a href="https://twitter.com/narravabrion"><img src="https://img.shields.io/twitter/follow/narravabrion?style=social" alt="Twitter"></a>
  <a href="https://www.linkedin.com/in/brian-george-411b49184/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
  </p>
 
