@@ -1,8 +1,10 @@
-# [Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> Brion here](https://narravabrion.netlify.app/)
-[<img height="30" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />][twitter]
-[<img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][LinkedIn]
+# [Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="10px"> Brion here](https://narravabrion.netlify.app/)
 
-![alt text](https://github.com/narravabrion/narravabrion/blob/main/banner.png) 
+<p>
+ ![Twitter Follow](https://img.shields.io/twitter/follow/narravabrion?style=social)
+ ![GitHub followers](https://img.shields.io/github/followers/narravabrion?style=social)
+ <a href="https://www.linkedin.com/in/brian-george-411b49184/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+ </p>
 
 
 ### Technologies 
