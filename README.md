@@ -34,5 +34,5 @@
 
 <p align="center"> 
   <a href="https://narravabrion.netlify.app/"><img src="https://user-images.githubusercontent.com/35178240/179011180-47093efa-4eaa-4f83-b6a8-3fe9b22cb9b6.png" height="50" width="130" alt="Website"></a>
- <a href="https://narravabrion.hashnode.dev/"><img src="https://user-images.githubusercontent.com/35178240/179011683-8462decb-ab85-4fcd-99ab-1dbccb05919a.png" height="50" width="130" alt="Website"></a>
+ <a href="https://narravabrion.hashnode.dev/"><img src="https://user-images.githubusercontent.com/35178240/179011683-8462decb-ab85-4fcd-99ab-1dbccb05919a.png" height="30" width="150" alt="Website"></a>
 </p>
