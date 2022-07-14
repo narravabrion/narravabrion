@@ -1,4 +1,4 @@
-# [Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="10px"> Brion here](https://narravabrion.netlify.app/)
+[Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="20px"> Brion here](https://narravabrion.netlify.app/)
 
 <p>
  <a href="https://github.com/narravabrion"><img src="https://img.shields.io/github/followers/narravabrion?style=social" alt="GitHub"></a>
