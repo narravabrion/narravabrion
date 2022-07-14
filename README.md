@@ -1,4 +1,4 @@
-[Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="20px"> Brion here](https://narravabrion.netlify.app/)
+# [Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="20px"> Brion here](https://narravabrion.netlify.app/)
 
 <p>
  <a href="https://github.com/narravabrion"><img src="https://img.shields.io/github/followers/narravabrion?style=social" alt="GitHub"></a>
@@ -7,7 +7,7 @@
  </p>
 
 
-### Technologies 
+## Technologies 
 
 <p align="left">
 <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" alt="javascript" width="40" height="40"/>
@@ -32,4 +32,7 @@
 [linkedin]: https://www.linkedin.com/in/brian-george-411b49184/
 
 
-<h3 align="center"> &copy; made with ❤️ by brion</h3>
+<p align="center"> 
+  <a href="https://narravabrion.netlify.app/"><img src="https://user-images.githubusercontent.com/35178240/179011180-47093efa-4eaa-4f83-b6a8-3fe9b22cb9b6.png" height="50" width="130" alt="Website"></a>
+ <a href="https://narravabrion.hashnode.dev/"><img src="https://user-images.githubusercontent.com/35178240/179011683-8462decb-ab85-4fcd-99ab-1dbccb05919a.png" height="50" width="130" alt="Website"></a>
+</p>
