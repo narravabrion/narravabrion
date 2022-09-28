@@ -1,112 +1,49 @@
-import React, { useCallback, useEffect, useState } from "react"
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai"
-import { FiExternalLink } from "react-icons/fi"
+import React from "react"
+import ProjectDisplay from "./ProjectDisplay"
+import { motion } from "framer-motion"
 
 const Projects = () => {
-	const [projects] = useState(projectList)
-	const [value, setValue] = useState(0)
-
-	const handleLimits = useCallback(
-		(value) => {
-			const len = projects.length - 1
-			if (value > len) {
-				return 0
-			}
-			if (value < 0) {
-				return len
-			}
-			return value
+	const titleVariants = {
+		hidden: { opacity: 0, x: "-100vw" },
+		visible: { opacity: 1, x: 0, transition: { duration: 2.5 } },
+	}
+	const contVariants = {
+		hidden: { opacity: 0, y: "100vh" },
+		visible: {
+			opacity: 1,
+			y: 0,
+			transition: { duration: 2, type: "spring", bounce: 0.3 },
 		},
-		[projects.length]
-	)
-	const handleNext = () => {
-		setValue(handleLimits(value + 1))
 	}
-	const handlePrev = () => {
-		setValue(handleLimits(value - 1))
-	}
-
-	useEffect(() => {
-		const handleSlider = () => {
-			setValue(handleLimits(value + 1))
-		}
-		const interval = setInterval(handleSlider, 3000)
-
-		return () => {
-			clearInterval(interval)
-		}
-	}, [value, handleLimits])
-
-	const currentProject = projects[value]
 
 	return (
 		<>
-			<div className='text-white w-full h-full  bg-black/80 flex flex-col items-start justify-center '>
-				<article className='w-full'>
-					<h1 className='p-3 text-lg font-semibold text-green-500'>
-						{currentProject.name}
-					</h1>
-					<p className='pr-12 pl-3 text-left'>{currentProject.desc}</p>
-					<ul className='flex items-center flex-wrap justify-start pr-12 pl-2 pb-2 text-gray-400'>
-						{currentProject.techs.map((item) => {
-							return (
-								<li
-									key={item.id}
-									className='bg-gray-200/20 px-1 m-1 rounded border border-gray-700'
-								>
-									{item}
-								</li>
-							)
-						})}
-					</ul>
-					<div className='flex items-center justify-center my-2 w-full'>
-						<a
-							href={currentProject.url}
-							className=' bg-gray-100/40 px-2 rounded-full shadow-lg text-green-500 font-bold flex items-center transition-all ease-in-out hover:opacity-80 hover:scale-105 hover:text-black'
-						>
-							demo <FiExternalLink className='ml-2' size={20} />
-						</a>
-					</div>
-					<div className=' w-full p-2 flex items-center justify-evenly'>
-						<AiOutlineArrowLeft
-							size={25}
-							className=' mx-2 bg-gray-200/20 rounded-full p-1'
-							onClick={handlePrev}
-						/>
-						<AiOutlineArrowRight
-							size={25}
-							className=' mx-2 bg-gray-200/20 rounded-full p-1'
-							onClick={handleNext}
-						/>
-					</div>
-				</article>
-			</div>
+			<motion.section
+				initial='hidden'
+				whileInView='visible'
+				viewport={{ once: false, amount: 0.5 }}
+				transition={{ staggerChildren: 0.5 }}
+				id='projects'
+				className="w-full h-screen snap-start bg-cover bg-center bg-[url('https://images.unsplash.com/photo-1541728472741-03e45a58cf88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80')]"
+			>
+				<div className='w-full h-full text-white px-4 bg-black/50 md:bg-black/80 flex items-center justify-center relative'>
+					<motion.h3
+						variants={titleVariants}
+						className='font-extrabold text-5xl absolute top-1/4 left-2 md:left-1/4  mix-blend-color-dodge'
+					>
+						Projects
+					</motion.h3>
+					{/* display all projects */}
+					<motion.div
+						variants={contVariants}
+						className='w-11/12 max-w-3xl h-48 bg-dark absolute left-0 right-0 m-auto top-0 bottom-0 rounded-sm '
+					>
+						<ProjectDisplay />
+					</motion.div>
+				</div>
+			</motion.section>
 		</>
 	)
 }
 
 export default Projects
-
-const projectList = [
-	{
-		id: "1",
-		name: "Personal portfolio",
-		url: "https://narravabrion.netlify.app/",
-		desc: "This is my personal website portfolio",
-		techs: ["React", "Tailwind"],
-	},
-	{
-		id: "2",
-		name: "Twitter trends",
-		url: "https://twittertrends.netlify.app/",
-		desc: "A site that fetches current trends from round the world. Users can specify the country they want to view or use their current location. It displays the trend name and the volume of tweets.",
-		techs: ["React", "Node", "Twitter API", "Material UI"],
-	},
-	{
-		id: "3",
-		name: "Nameright",
-		url: "https://nameright.netlify.app/",
-		desc: "A REST API build on ExpressJs where users can store names or query the database through multiple endpoints to get data in their desired format.",
-		techs: ["React", "Node", "Tailwind", "AdminJs", "Docker"],
-	},
-]

@@ -1,6 +1,0 @@
-export {default as Navbar} from './Navbar'
-export {default as Sidebar} from './Sidebar'
-export {default as Brand} from './Brand'
-export {default as Landing} from './Landing'
-export {default as Skills} from './Skills'
-export {default as Projects} from './Projects'
